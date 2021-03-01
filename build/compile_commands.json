@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/zpeng/http_server/build/src",
-  "command": "/usr/bin/c++   -I/home/zpeng/http_server/include  -g   -pthread -o CMakeFiles/http_server.dir/main.cpp.o -c /home/zpeng/http_server/src/main.cpp",
-  "file": "/home/zpeng/http_server/src/main.cpp"
-}
-]

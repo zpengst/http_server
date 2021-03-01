@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/http_server.dir/main.cpp.o  -o http_server -pthread 
