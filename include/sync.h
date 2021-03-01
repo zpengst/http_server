@@ -1,7 +1,7 @@
 #ifndef SYNC_H
 #define SYNC_H
 
-#include<exception>
+#include<stdexcept>
 #include<pthread.h>
 #include<semaphore.h>
 
