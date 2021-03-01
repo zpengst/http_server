@@ -4,4 +4,4 @@ ADD_EXECUTABLE(http_server ${DIR_SRCS})
 
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
-TARGET_LINK_LIBRARIES(http_server Threads::Threads)
+TARGET_LINK_LIBRARIES(http_server http_conn Threads::Threads)
