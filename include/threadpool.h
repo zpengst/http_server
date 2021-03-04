@@ -92,7 +92,9 @@ void threadpool<T>::run()
             ;
         if (m_workqueue.empty())
         {
-            throw std::runtime_error("run() error: m_workqueue.empty().");
+            m_queuelocker.unlock();
+            continue;
+            //throw std::runtime_error("run() error: m_workqueue.empty().");
         }
 
         T *request = m_workqueue.front();
